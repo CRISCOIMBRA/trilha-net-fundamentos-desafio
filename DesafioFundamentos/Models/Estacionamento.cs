@@ -31,7 +31,7 @@ public void RemoverVeiculo()
         Console.WriteLine("Digite a quantidade de horas que o veículo permaneceu estacionado:");
         
         // Pedir para o usuário digitar a quantidade de horas que o veículo permaneceu estacionado
-        // e realizar o cálculo do valor total
+       
         if (int.TryParse(Console.ReadLine(), out int horas) && horas >= 0)
         {
             decimal valorTotal = precoInicial + (precoPorHora * horas);
